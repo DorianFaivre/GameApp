@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Game.BL",
+    "\\Game.BL.Contracts",
+    "\\Game.DAL",
+    "\\Game.Entities",
+    "\\GameApp"
+  ],
+  "SelectedNode": "\\Game.DAL\\Context.cs",
+  "PreviewInSolutionExplorer": false
+}

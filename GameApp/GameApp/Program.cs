@@ -1,7 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using Game.BL;
+using Game.BL.Contracts;
+using Game.DAL;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IVideoGameService, VideoGameService>();
+builder.Services.AddScoped<ICommentService, CommentService>();
+builder.Services.AddDbContext<Context>();
 
 var app = builder.Build();
 

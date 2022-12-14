@@ -15,9 +15,9 @@ namespace Game.BL.Contracts
 
         public Comment Get(int id);
 
-        public Comment Delete(int id);
+        public void Delete(int id);
 
-        public Comment Update(int id, Comment updateComment);
+        public Comment Update(Comment updateComment);
     }
 }
 

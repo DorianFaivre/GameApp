@@ -8,6 +8,7 @@ namespace Game.Entities
 {
     public class Comment
     {
+        public int Id { get; set; }
         public string author { get; set; }
 
         public string comment { get; set; }
