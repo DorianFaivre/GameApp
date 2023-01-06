@@ -14,5 +14,7 @@ namespace Game.Entities
         public string comment { get; set; }
 
         public DateTime date { get; set; }
+
+        public double grade { get; set; }
     }
 }

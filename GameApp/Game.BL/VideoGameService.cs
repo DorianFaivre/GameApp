@@ -57,10 +57,11 @@ namespace Game.BL
             return entity.Entity;
         }
 
+        /*
         public double AverageGrade(VideoGame videoGame)
         {
             double noteMoyenne = videoGame.grade.Average();
             return noteMoyenne;
-        }
+        }*/
     }
 }

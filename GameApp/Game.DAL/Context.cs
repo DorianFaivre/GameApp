@@ -12,6 +12,8 @@ namespace Game.DAL
         /// Jeu de données qui contient les Jeux vidéos et les Commentaires, "point d'entrée" vers leurs tables. 
         public DbSet<VideoGame> VideoGame { get; set; }
         public DbSet<Comment> Comment { get; set; }
+
+        public DbSet<Plateform> plateform { get; set; }
         /*
         public Context(DbContextOptions<Context> options) : base(options)
         {
@@ -31,13 +33,16 @@ namespace Game.DAL
             modelBuilder.Entity<VideoGame>()
                 .Property(g => g.Id)
                 .HasColumnName("gameId")
-                .HasDefaultValue(0)
                 .IsRequired();
 
             modelBuilder.Entity<Comment>()
                 .Property(c => c.Id)
                 .HasColumnName("commentId")
-                .HasDefaultValue(0)
+                .IsRequired();
+
+            modelBuilder.Entity<Plateform>()
+                .Property(p => p.Id)
+                .HasColumnName("plateformId")
                 .IsRequired();
         }
 

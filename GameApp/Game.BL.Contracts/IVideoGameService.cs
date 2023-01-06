@@ -19,6 +19,6 @@ namespace Game.BL.Contracts
 
         public VideoGame Update(VideoGame updateVideoGame);
 
-        public double AverageGrade(VideoGame videoGame);
+        //public double AverageGrade(VideoGame videoGame);
     }
 }
