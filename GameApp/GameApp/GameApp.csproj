@@ -25,4 +25,8 @@
     <ProjectReference Include="..\Game.Entities\Game.Entities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\VideoGames\" />
+  </ItemGroup>
+
 </Project>

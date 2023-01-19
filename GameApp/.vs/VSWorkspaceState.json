@@ -7,6 +7,6 @@
     "\\Game.Entities",
     "\\GameApp"
   ],
-  "SelectedNode": "\\Game.DAL\\Context.cs",
+  "SelectedNode": "\\Game.BL\\VideoGameService.cs",
   "PreviewInSolutionExplorer": false
 }
